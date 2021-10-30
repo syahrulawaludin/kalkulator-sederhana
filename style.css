@@ -1,63 +1,89 @@
 
-body{
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-   background-color: rgb(214, 214, 214); background-image : url(https://media1.giphy.com/media/VjRQW0E2YR2nNkRK7l/giphy.gif);
-   background-size: cover;
-   background-attachment: fixed;
+    .navbar-1-4.navbar-dark .navbar-nav .nav-link {
+      color: #fff;
+    }
+
+    .navbar-1-4 .bg-black {
+      background-color: #1f1d2b;
+    }
+
+    .navbar-1-4 .btn-get-started {
+      border-radius: 20px;
+      padding: 12px 30px;
+      font-weight: 500;
+    }
+
+    .navbar-1-4 .btn-get-started-purple {
+      background-color: #0ec8f8;
+      transition: 0.3s;
+    }
+
+    .navbar-1-4 .btn-get-started-purple:hover {
+      background-color: #3ad8ff;
+      transition: 0.3s;
+    }
+    body{
+
+        background-color: rgb(214, 214, 214); background-image : url(https://media1.giphy.com/media/VjRQW0E2YR2nNkRK7l/giphy.gif);
+        background-size: cover;
+        background-attachment: fixed;
+     }
+     .container-2{
+        width: 250px;
+        height: 400px;
+        margin: 80px auto;
+        border-radius: 10px;
+        background: rgb(214, 214, 214);
+
 }
-.container {
-    width: 250px;
-    height: 400px;
-    margin: 80px auto;
-    border-radius: 10px;
-    background: rgb(214, 214, 214);
-
-}
-
-.cal-box {
-    width: 200px;
-    margin: 20px auto;
-}
-
-#display{
-    border: none;
-    outline: none;
-    color: black;
-    text-align: right;
-    font-weight: 600;
-    padding: 10px 10px 10px 10px;
-    margin: 40px 0 40px 0;
-    background: transparent;
-    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
-}
-
-.button{
-    margin: 15px 0 0 5px;
-    width: 40px;
-    height: 40px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 8px;
-    background: rgb(214, 214, 214);
-    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
-    display: inline-block;
-}
-
-.button:active {
-    box-shadow: inset 1px 1px 2px #bebeec, inset -1px -1px 2px #fff
+       .cal-box {
+        width: 200px;
+        margin: 20px auto;
+    }
     
-}
-
-.clearButton{
-    background: red;
-    color: white;
-
-}
-
-.mathbutton{
-    background: black;
-    color: white;
-}
+    #display{
+        border: none;
+        outline: none;
+        color: black;
+        text-align: right;
+        font-weight: 600;
+        padding: 10px 10px 10px 10px;
+        margin: 40px 0 40px 0;
+        background: transparent;
+        box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
+    }
+    
+    
+    .button{
+        margin: 15px 0 0 5px;
+        width: 40px;
+        height: 40px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 8px;
+        background: rgb(214, 214, 214);
+        box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+        display: inline-block;
+    }
+    
+    .button:active {
+        box-shadow: inset 1px 1px 2px #bebeec, inset -1px -1px 2px #fff
+        
+    }
+    
+    .clearButton{
+        background: red;
+        color: white;
+    
+    }
+    
+    .mathbutton{
+        background: black;
+        color: white;
+    }
+    
